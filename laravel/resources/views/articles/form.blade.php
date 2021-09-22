@@ -7,5 +7,5 @@
 
 <div class="md-form">
   <label for=""></label>
-  <textarea name="body" id="body" rows="16" class="form-control" placeholder="本文">{{ $article->title ?? old('body') }}</textarea>
+  <textarea name="body" id="body" rows="16" class="form-control" placeholder="本文">{{ $article->body ?? old('body') }}</textarea>
 </div>
