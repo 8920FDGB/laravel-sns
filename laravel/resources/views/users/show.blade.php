@@ -44,7 +44,7 @@
         <a href="{{ route('users.show', ['name' => $user->name]) }}" class="nav-link text-muted active">記事</a>
       </li>
       <li class="nav-item">
-        <a href="" class="nav-link text-muted">いいね</a>
+        <a href="{{ route('users.likes', ['name' => $user->name]) }}" class="nav-link text-muted">いいね</a>
       </li>
     </ul>
     @foreach ($articles as $article)
