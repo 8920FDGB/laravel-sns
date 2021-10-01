@@ -16,7 +16,7 @@
               <form method="POST"
                 action="">
                 @csrf
-                {{-- <input type="hidden" name="token" value="{{ $token }}"> --}}
+                <input type="hidden" name="token" value="{{ $token }}">
                 <div class="md-form">
                   <label for="name">ユーザー名</label>
                   <input class="form-control" type="text" id="name" name="name" required>
